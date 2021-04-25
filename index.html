@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Rizky</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="m-2 p-2 font-semibold">1. Alert</h1>
+    <div class="m-4 p-2 border-green-300 bg-green-300">Well done!
+        <p class="border-b-2 border-green-500">Aww yeah, you succesfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+        <p>Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+    </div>
+    <h1 class="m-4 font-semibold">2. Badge</h1>
+    <div class="m-2 p-2">
+    <button class="p-2 bg-blue-500 text-white w-36 h-12 text-white-500 flex flex-row flex items-center rounded">Notifications
+        <span class="border-2 border-gray-600 bg-gray-600 text-white text-white-500 justify-center flex items-center h-6 w-6 flex flex-row rounded mx-auto m-2">4</span>
+    </button>
+    </div>
+    <h1 class="m-2 p-2 font-semibold">3. Button</h1>
+    <div class="m-3">
+        <button class="border-purple-500 text-purple text-purple-500 py-1 px-4 border-2 rounded hover:bg-purple-800">Primary</button>
+        <button class="border-gray-500 text-gray text-gray-500 py-1 px-4 border-2 rounded hover:bg-gray-800">Secondary</button>
+        <button class="border-green-500 text-green text-green-500 py-1 px-4 border-2 rounded hover:bg-green-800">Success</button>
+        <button class="border-red-500 text-red text-red-500 py-1 px-4 border-2 rounded hover:bg-red-800">Danger</button>
+        <button class="border-yellow-500 text-yellow text-yellow-500 py-1 px-4 border-2 rounded hover:bg-yellow-800">Warning</button>
+        <button class="border-blue-500 text-blue text-blue-500 py-1 px-4 border-2 rounded hover:bg-blue-800">Info</button>
+        <button class="border-black-500 text-gray-200 py-1 px-4 border-2 rounded hover:bg-black-800 tracking-widest">Light</button>
+        <button class="border-gray-500 text-black text-black-500 py-1 px-4 border-2 rounded hover:bg-gray-800 tracking-widest">Dark</button>
+    </div>
+    <h1 class="m-2 p-2 font-semibold">4. Card</h1>
+    <!-- component -->
+    <div class="m-6 max-w-xs rounded overflow-hidden shadow-lg my-2">
+    <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Card title</div>
+        <p class="text-grey-darker text-base">Some quick example text to build on the card title and make up the bulk of the card content.</p>
+        <button class="p-2 border-2 border-blue-500 bg-blue-500 text-white text-white-500 hover:bg-purple-800">Go somewhere</button>
+    </div>    
+    </div>
+    </div>
+    <h1 class="m-2 p-2 font-semibold">5. Form</h1>
+    <div class="mt-2 sm:mx-auto sm:w-fulll sm:max-w-md">
+        <div class="border-2 bg-white py-8 px-6 shadow rounded-lg sm:px-10">
+            <form class="mb-0 space-y-6" action="#" method="POST">
+                <div>
+                    <label for="email" class="block text-sm font-medium text-black-700">Email address</label>
+                    <div class="mt-1">
+                        <input id="email" name="email" type="email" autocomplete="email" required class="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm" />
+                        <p class="block">We'll never share your email with anyone ebs.</p>
+                    </div>
+                </div>
+                <div>
+                    <label for="password" class="block text-sm font-medium text-black-700">Password</label>
+                    <div class="mt-1">
+                        <input id="password" name="password" type="password" autocomplete="current-password" required class="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm" />
+                    </div>
+                </div>
+                <input type="checkbox" class="m-2 p-2"/>
+                <label>Check me out</label>
+                <div class="flex justify-between items-baseline">
+                    <button type="submit" class="mt-4 bg-indigo-500 text-white py-2 px-6 rounded-md hover:bg-indigo-600">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
